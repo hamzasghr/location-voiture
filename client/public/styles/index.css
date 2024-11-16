@@ -1,8 +1,17 @@
 nav {
-   background-color:#003f8c ;
+  background-color: #003f8c;
 }
 .navbar-brand {
-   font-family:"Bowlby One", sans-serif ;
+  font-family: "Bowlby One", sans-serif;
 }
 
+/* Carousel */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
 
+.carousel-caption {
+  left: 5%;
+  right: 5%;
+}
