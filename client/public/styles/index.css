@@ -15,3 +15,38 @@ nav {
   left: 5%;
   right: 5%;
 }
+.search-section {
+  background-color: #2f8cd8;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.search-section input, .search-section button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+/* Voitures disponibles */
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.car-item {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.car-item img {
+  width: 100%;
+  height: auto;
+}
+
