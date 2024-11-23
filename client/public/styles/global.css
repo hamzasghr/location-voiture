@@ -1,24 +1,26 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Staatliches&display=swap");
 /* font-family: "oswald wght", sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Staatliches&display=swap");
 /* font-family: "Bowlby One", sans-serif; */
 
-:root{
-   --rouge:#fa4c69;
-   --greyblue:#e0f2fe ;
-   --blue:#003f8c;
-   --yellow:#f5ac24 ;
-   --black:rgb(33, 37, 41) ;
+:root {
+  --rouge: #fa4c69;
+  --greyblue: #e0f2fe;
+  --blue: #003f8c;
+  --yellow: #f5ac24;
+  --black: rgb(33, 37, 41);
 }
 a {
-   color: inherit;
-   text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 body {
-   margin: 0px;
-   padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
- nav {
-   background-color:var(--blue) ;
-}  
+nav {
+  background-color: var(--blue);
+}
+.navbar-brand {
+  font-family: "Bowlby One", sans-serif;
+}
