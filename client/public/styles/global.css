@@ -24,3 +24,7 @@ nav {
 .navbar-brand {
   font-family: "Bowlby One", sans-serif;
 }
+
+footer {
+  background-color: var(--black);
+}
