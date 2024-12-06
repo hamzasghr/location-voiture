@@ -64,6 +64,46 @@
           <h2>Location Voiture</h2>
        
     </header>
+    <form>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="pickup-location" class="form-label">Lieu de prise en charge</label>
+          <input type="text" class="form-control" id="pickup-location" placeholder="Ville ou aéroport">
+        </div>
+        <div class="col-md-6">
+          <label for="dropoff-location" class="form-label">Lieu de retour</label>
+          <input type="text" class="form-control" id="dropoff-location" placeholder="Ville ">
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="pickup-date" class="form-label">Date de prise en charge</label>
+          <input type="date" class="form-control" id="pickup-date">
+        </div>
+        <div class="col-md-6">
+          <label for="dropoff-date" class="form-label">Date de retour</label>
+          <input type="date" class="form-control" id="dropoff-date">
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="car-type" class="form-label">Type de voiture</label>
+          <select class="form-select" id="car-type">
+            <option value="compact">Compacte</option>
+            <option value="sedan">Berline</option>
+            <option value="suv">SUV</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="passengers" class="form-label">Nombre de passagers</label>
+          <input type="number" class="form-control" id="passengers" min="1" max="7" placeholder="1 à 7">
+        </div>
+      </div>
+      <a href="./cars.html"> <button type="submit" class="btn btn-primary">Rechercher</button></a>
+     
+    </form>
   
     <!-- Recherche de voiture -->
   

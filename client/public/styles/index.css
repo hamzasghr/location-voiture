@@ -44,3 +44,13 @@
   width: auto;
   object-fit: cover;
 }
+#image1 {
+width: 1000px;
+margin: auto;
+}
+#services { 
+  text-align: center;
+  list-style:none  ;
+  margin-left: 0%;
+ padding-left: 0%;
+}
