@@ -165,137 +165,112 @@
         <span class="visually-hidden">Next</span>
       </button>
     </header>
-    <section id="home" class="search-section">
-      <h1>Réservez votre voiture dès maintenant</h1>
-    </section>
-    <div id="image1">
-      <img src="assets/voiture 7.avif" alt="" width="100%">
-
-    </div>
-
-    <!-- Section des voitures disponibles -->
-    <section id="cars" class="container py-3 car-list">
-      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal text-body-emphasis">
-          Nos voitures disponibles
-        </h1>
-      </div>
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col">
-          <div class="card rounded-3 shadow-sm h-100">
-            <img
-              src="data:image/jpeg;base64,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"
-              alt="Voiture 1"
-              class="voiture_card_image"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Voiture 1</h5>
-              <p class="card-text">
-                Marque: Toyota | Modèle: Corolla | Prix: 30€ par jour
-              </p>
-              <a href="booking.html" class="btn btn-primary"
-                >reserver maintenant</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card rounded-3 shadow-sm h-100">
-            <img
-              src="assets/voiture 9 ..jpeg"
-              alt="Voiture 2"
-              class="voiture_card_image"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Voiture 2</h5>
-              <p class="card-text">
-                Marque : Ford | Modèle : Focus | Prix: 35€ par       jour
-              </p>
-              <a href="booking.html" class="btn btn-primary"
-                >reserver maintenant</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card rounded-3 shadow-sm h-100">
-            <img
-              src="assets/voiture 8 (1).jpg"
-              alt="Voiture 3"
-              class="voiture_card_image"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Voiture 3</h5>
-              <p class="card-text">
-                Marque:hyundai| Modèle:grand i10|Prix:30€ par jour
-              </p>
-              <a href="booking.html" class="btn btn-primary"
-                >reserver maintenant</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Ajouter d'autres voitures si nécessaire -->
-    </section>
-
-    <!-- Section des services -->
-    <section id="services" class="services">
-      <h2>Nos services</h2>
-      <ul>
-        <li>Livraison à domicile ou à l'aéroport</li>
-        <li>Assurance complète incluse</li>
-        <li>Réservation facile en ligne</li>
-        <li>Support client 24/7</li>
-      </ul>
-    </section>
     <main>
-      <h1 class="visually-hidden">location de voiture</h1>
-    
-      <div class="container px-4 py-5" id="featured-3">
-        <h2 class="pb-2 border-bottom">bienvenue</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+      <!-- Section introduction voitures -->
+      <section id="intro">
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom">Nos liste des voitures</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Livraison à domicile ou à l'aéroport</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Assurance complète incluse</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Assurance complète incluse</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Réservation facile</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Réservation facile</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Support client</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="icon-link">
-              Call to action
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Support client</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
           </div>
-        </div>
-      </div>
-    
-      <div class="b-example-divider"></div>
-    
-      
-    
+        </div>   
+      </section>
      
+      <!-- Section des services -->
+      <section id="services">
+        <div class="container px-4 py-5" id="featured-3">
+          <h2 class="pb-2 border-bottom">Nos services</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Livraison à domicile ou à l'aéroport</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Assurance complète incluse</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Réservation facile</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Support client</h3>
+              <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <a href="#" class="icon-link">
+                Call to action
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+          </div>
+        </div>     
+      </section>
     </main>
     <footer class="bg-dark text-white text-center py-3">
       <p>&copy; 2024 Location Voiture | <a href="#" class="text-white">Mentions légales</a></p>
